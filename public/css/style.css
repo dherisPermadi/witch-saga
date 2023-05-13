@@ -1,0 +1,179 @@
+.navbar {
+  background-color: #fbeec1;
+  justify-content: center;
+}
+
+.navbar-brand {
+  color:black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.btn {
+  background-color: #8d8741;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #daad86;
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border: 3px solid #555;
+}
+
+.card {
+  width: 35rem;
+  text-align: center;
+  color: black;
+  padding: 50px 35px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(133, 135, 74, 0.8);
+  border-radius: 16px;
+  box-shadow:  0 4px 30px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.first-page {
+  background: url("/images/main-background.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90%;
+  resize: both;
+  position: fixed;
+  top: 10;
+  left: 0;
+  bottom: 10;
+  justify-content: center;
+ }
+
+ .road {
+  width: 100%;
+  height: 100%;
+  resize: both;
+  position: fixed;
+  top: 0;
+  bottom: 10;
+  margin-top: 60px;
+ }
+
+.village {
+  background: url("/images/village.png");
+  background-size: cover;
+  width: 100%;
+  height: 90%;
+  resize: both;
+  position: fixed;
+  top: 10;
+  left: 0;
+  bottom: 10;
+  justify-content: center;
+ }
+
+ .house {
+  background: url("/images/inside-house.png");
+  background-size: cover;
+  width: 100%;
+  height: 90%;
+  resize: both;
+  position: fixed;
+  top: 10;
+  left: 0;
+  bottom: 10;
+  justify-content: center;
+ }
+
+ .desk {
+  background: url("/images/desk.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90%;
+  resize: both;
+  position: fixed;
+  top: 10;
+  left: 0;
+  bottom: 10;
+  justify-content: center;
+ }
+
+ .book {
+  background: url("/images/book.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90%;
+  resize: both;
+  position: fixed;
+  top: 10;
+  left: 0;
+  bottom: 10;
+  justify-content: center;
+ }
+
+ .success {
+  background: url("/images/success.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90%;
+  resize: both;
+  position: fixed;
+  top: 10;
+  left: 0;
+  bottom: 10;
+  justify-content: center;
+ }
+
+ .failed {
+  background: url("/images/failed.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90%;
+  resize: both;
+  position: fixed;
+  top: 10;
+  left: 0;
+  bottom: 10;
+  justify-content: center;
+ }
+
+ .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #bc986a;
+  color: white;
+  text-align: center;
+}
+
+.navbar:hover {
+  color: black;
+}
+
+.welcome-text {
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing 2s steps(17),
+    cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% { border-color: transparent }
+}
+@keyframes typing {
+  from { width: 0 }
+}
