@@ -22,13 +22,13 @@
             <h2>Input Two Killed Persons.</h2>
           </div>
           <div class="card-body">
-            <form method="POST" action="{{ url('quest') }}">
+            <form method="POST" action="{{ url('quests') }}">
               @csrf
               <h3>Person A</h3>
               age of death:
               <br>
-              <input type="number" name='first_death_age' value=0 required
-              ><br>
+              <input type="number" name='first_death_age' value=0 required>
+              <br>
               death of death:
               <br>
               <input type="number" name='first_death_year' value=0 required>

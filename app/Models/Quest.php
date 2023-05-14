@@ -10,6 +10,7 @@ class Quest extends Model
 {
     use HasFactory;
 
+    //main process
     public function calculate()
     {
         $first_person = new Answer($this->answers->first());
@@ -18,6 +19,7 @@ class Quest extends Model
         return $this->findAnswer($first_person, $last_person);
     }
 
+    //count the average
     public function findAnswer($first_person, $last_person)
     {
         if ($first_person->isPersonValid() == 'valid' && $last_person->isPersonValid() == 'valid')

@@ -23,4 +23,4 @@ Route::get('/quests/{chapter}', [
     'uses'=>'App\Http\Controllers\QuestController@index'
 ]);
 
-Route::post('quest', [QuestController::class, 'solve']);
+Route::post('quests', [QuestController::class, 'solve']);

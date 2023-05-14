@@ -10,34 +10,28 @@ class Answer extends Model
 {
     use HasFactory;
 
+    //age and year value lidation
     public function isAnswerValid()
     {
         return ($this->death_age > 0 && $this->death_year > 0) ? 'valid' : 'invalid';
     }
 
-    public function calculate()
-    {
-        if ($this->first_death_age < 1 || $this->first_death_year < 1 || $this->last_death_age < 1 || $this->last_death_year < 1)
-        {
-            return -1;
-        }
-
-        return $this->findAnswer();
-    }
-
-    public function findBornYear()
+    // count born year
+    public function countBornYear()
     {
         return $this->death_year - $this->death_age;
     }
 
+    // born yearn value validation
     public function isPersonValid()
     {
-        return ($this->isAnswerValid() == 'valid' && $this->findBornYear() > 0) ? 'valid' : 'invalid';
+        return ($this->isAnswerValid() == 'valid' && $this->countBornYear() > 0) ? 'valid' : 'invalid';
     }
 
+    //count people killed
     public function countPeopleKilled()
     {
-        $year = $this->findBornYear();
+        $year = $this->countBornYear();
         $total = 0;
 
         for ($counter = 1; $counter <= $year; $counter++){  
@@ -47,6 +41,7 @@ class Answer extends Model
         return $total;
     }
 
+    //witch rule
     public function witchTargetRule($number){
         if ($number == 0)
         {
