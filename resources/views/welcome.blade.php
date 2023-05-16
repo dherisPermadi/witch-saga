@@ -11,12 +11,13 @@
         <div class="card-body">
           <h5 class="card-title">Welcome to GeekSeat Village.</h5>
           <p class="card-text">
-            A place where your adventure begins, as a <b>brave person</b> you journey destined in the<b>GeekSeat Village</b>, which is a quite village that has been controlled by a dark and cunning <b>Witch</b>.
+            A place where your <b>adventure</b> will begin, as a <b>brave person and good programmer</b> your journey destined to be a savior in <b>The GeekSeat Village</b>,
+            <b>A mysterious village</b> that has been controlled by a <b>dark and cunning Witch</b>.
           </p>
-          <p class="card-text">Let's follow the path and help the villager to defeat the <b>Witch</b>.</p>
-          <p class="card-text">May the greatest power helps you save the village.</p>
+          <p class="card-text">Let's follow the path and help <b>the villager</b> to defeat <b>The Witch</b>.</p>
+          <p class="card-text"><b>May the greatest power helps you save the village.</b></p>
           <br>
-          <a href="{{ route('quests', ['chapter' => 'village']) }}" class='btn btn-lg'>Enter the Village</a>
+          <a href="{{ route('quests', ['chapter' => 'village']) }}" class='btn btn-lg'>Enter The Village</a>
         </div>
       </div>
     </div>

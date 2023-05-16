@@ -11,9 +11,9 @@
         <div class="card-body">
           <h5 class="card-title">You Defeated the Witch.</h5>
           <p class="card-text">
-            You have solved the quest. the result of the average is <b>{{ $average }}</b>.
+            You have <b>solved the quest</b>. the result of the average is <b>{{ $average }}</b>.
           </p>
-          <p class="card-text">Now the <b>Witch</b> is gone from this village and <b>GeekSeat Village</b> is safe from <b>the Death</b>.</p>
+          <p class="card-text">Now <b>the Witch</b> is gone from this village and <b>GeekSeat Village</b> is safe from <b>the Death</b>.</p>
           <h4>Thank you Savior.</h4>
           <br>
           <a href="/" class='btn btn-lg'>Start another Journey</a>

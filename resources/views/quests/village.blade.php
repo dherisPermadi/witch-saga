@@ -11,10 +11,12 @@
         <div class="card-body">
           <h5 class="card-title">The Elder of the village.</h5>
           <p class="card-text">
-            As you arrived in the village, not one person is outside, it looks like that no one is lived in the village. the door in every houses is closed. Until you reach one particular house.
+            As you arrived in <b>The Village</b>, you have not seen a single person in  there, it looks like that no one is living in <b>The Village</b>.
+            each door in every houses are closed. Until you reach one particular house.
           </p>
-          <p class="card-text"><b>A big house</b> that different than the other houses. When you getting closer to the house, <b>an elder person</b> comes out of that house with a big smile.</p>
-          <p class="card-text"><i>"Come inside my child. It is the time. I've been waiting for you."</i>, said the eldery while guiding you to follow him into the house.</p>
+          <p class="card-text"><b>A big house</b> that different than the other houses. When you approaching that house, <b>An Elderly Person</b> comes out with a big smile.</p>
+          <p class="card-text"><i><b>"Come inside my child. It is the time. We've been waiting for you."</b></i>, said <b>The Elde</b> while guiding you to follow him enter the house.</p>
+          <p>What is the meaning all of these? Why <b>The Elde</b> said that? Do you really the one who have been waiting for?</p>
           <br>
           <a href="{{ route('quests', ['chapter' => 'hope']) }}" class='btn btn-lg'>Follow the Elder</a>
         </div>

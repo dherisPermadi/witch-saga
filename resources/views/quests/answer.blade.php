@@ -11,8 +11,10 @@
           </div>
           <div class="card-body">
             <p>This is it. Your only way to defeat <b>the Witch</b>.
-            <p>Let's input the data of the two person that the witch has been killed.</b>
-            <p>If the result is right then <b>the Witch</b> would be gone from <b>this Village</b> forever. but if you are wrong, The witch will kill you right away. So, do it carefully</p>
+            <p>You only have to write two of the previous victims profile</b>
+            <p>Let's input the data of the two person that the witch had killed.</b>
+            <p>If the result is right then <b>the Witch</b> would be gone from <b>this Village</b> forever.
+              but if you are wrong, The witch will kill you right away. So, do it carefully.</p>
           </div>
         </div>
       </div>

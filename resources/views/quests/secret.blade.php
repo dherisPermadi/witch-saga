@@ -11,13 +11,18 @@
         <div class="card-body">
           <h5 class="card-title">You found the Legacy.</h5>
           <p class="card-text">
-            After reading about the witch behaviour, victims and the works of the previous hero. You found the solution to defeat <b>the Witch</b>. you found <b>The secret</b>, that before <b>the Witch</b> killed
-            <b>the last Programmer</b>, The Programmer managed to write all of the solution, so you can continue and fix what he could not have done.
+            You found all of your answers inside of the <b>previous Programmer</b> house, After reading more about <b>the Witch, the Victims and
+            the previous Hero</b>, Now you believe in everything. And for the most important part of your journey, you have found the solution
+            to defeat <b>the Witch</b>, You found <b>The Secret</b>.
           </p>
-          <p class="card-text">With the help of <b>the Elder</b>, you can save the Village before <b>the Witch</b> start the ritual. 
+          <p>
+            You found the last book that <b>The Programmer</b> managed to write, every patter and the structure of the solution.
+            And now you can continue and fix what he could not completed.
+          </p>
+          <p class="card-text">With the help of <b>the Elder</b>, you can save <b>the Village</b> before <b>the Witch</b> take another victims. 
           </p>
           <br>
-          <a href="{{ route('quests', ['chapter' => 'answer']) }}" class='btn btn-lg'>Complete the solution</a>
+          <a href="{{ route('quests', ['chapter' => 'answer']) }}" class='btn btn-lg'>Complete the Solution</a>
         </div>
       </div>
     </div>

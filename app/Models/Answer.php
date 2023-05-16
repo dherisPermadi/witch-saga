@@ -42,7 +42,8 @@ class Answer extends Model
     }
 
     //witch rule
-    public function witchTargetRule($number){
+    public function witchTargetRule($number)
+    {
         if ($number == 0)
         {
             return 0;
