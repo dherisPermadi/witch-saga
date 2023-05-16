@@ -15,8 +15,8 @@
             each door in every houses are closed. Until you reach one particular house.
           </p>
           <p class="card-text"><b>A big house</b> that different than the other houses. When you approaching that house, <b>An Elderly Person</b> comes out with a big smile.</p>
-          <p class="card-text"><i><b>"Come inside my child. It is the time. We've been waiting for you."</b></i>, said <b>The Elde</b> while guiding you to follow him enter the house.</p>
-          <p>What is the meaning all of these? Why <b>The Elde</b> said that? Do you really the one who have been waiting for?</p>
+          <p class="card-text"><i><b>"Come inside my child. It is the time. We've been waiting for you."</b></i>, said <b>The Elder</b> while guiding you to follow him enter the house.</p>
+          <p>What is the meaning of all of these? Why <b>The Elder</b> said that? Do you really the one who have been waiting for?</p>
           <br>
           <a href="{{ route('quests', ['chapter' => 'hope']) }}" class='btn btn-lg'>Follow the Elder</a>
         </div>
